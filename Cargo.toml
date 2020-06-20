@@ -1,0 +1,6 @@
+[workspace]
+members = [
+	"browser",
+	"html-parser",
+	"tree"
+]

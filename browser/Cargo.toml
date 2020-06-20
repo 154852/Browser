@@ -1,0 +1,14 @@
+[package]
+name = "browser"
+version = "0.1.0"
+authors = ["154852 <louisemileploix@icloud.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+html-parser = {path = "../html-parser"}
+tree = {path = "../tree"}
+glium = "0.27.0"
+regex = "1"
+lazy_static = "1.4.0"
